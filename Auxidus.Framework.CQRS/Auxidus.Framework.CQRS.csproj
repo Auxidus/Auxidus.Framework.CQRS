@@ -1,9 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <Authors>Auxidus</Authors>
     <Company>Auxidus</Company>
     <Description>Used for basic CQRS setup</Description>
@@ -12,6 +12,9 @@
     <RepositoryUrl>https://github.com/Auxidus/Auxidus.Framework.CQRS</RepositoryUrl>
     <PackageTags>CQRS, Auxidus</PackageTags>
     <PackageReleaseNotes>Added simple contratcs for general use</PackageReleaseNotes>
+    <PackageLicenseUrl>https://github.com/Auxidus/Auxidus.Framework.CQRS/blob/master/LICENSE.md</PackageLicenseUrl>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>AuxidusNuget.pfx</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
 </Project>
