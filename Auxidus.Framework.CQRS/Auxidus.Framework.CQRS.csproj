@@ -11,10 +11,11 @@
     <PackageProjectUrl>https://github.com/Auxidus/Auxidus.Framework.CQRS</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Auxidus/Auxidus.Framework.CQRS</RepositoryUrl>
     <PackageTags>CQRS, Auxidus</PackageTags>
-    <PackageReleaseNotes>Added simple contratcs for general use</PackageReleaseNotes>
+    <PackageReleaseNotes>Added simple contratcs for general use, added interface reference</PackageReleaseNotes>
     <PackageLicenseUrl>https://github.com/Auxidus/Auxidus.Framework.CQRS/blob/master/LICENSE.md</PackageLicenseUrl>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>AuxidusNuget.pfx</AssemblyOriginatorKeyFile>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
 </Project>

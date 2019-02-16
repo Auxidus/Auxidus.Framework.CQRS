@@ -2,7 +2,7 @@
 
 namespace Auxidus.Framework.CQRS
 {
-    public class Repository<TRepository>
+    public class Repository<TRepository> : IRepository<TRepository>
     {
         public Repository(TRepository ctx)
         {
