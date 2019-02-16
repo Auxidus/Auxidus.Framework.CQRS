@@ -2,6 +2,16 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Authors>Auxidus</Authors>
+    <Company>Auxidus</Company>
+    <Description>Used for basic CQRS setup</Description>
+    <Copyright>Auxidus 2019</Copyright>
+    <PackageProjectUrl>https://github.com/Auxidus/Auxidus.Framework.CQRS</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Auxidus/Auxidus.Framework.CQRS</RepositoryUrl>
+    <PackageTags>CQRS, Auxidus</PackageTags>
+    <PackageReleaseNotes>Added simple contratcs for general use</PackageReleaseNotes>
   </PropertyGroup>
 
 </Project>
